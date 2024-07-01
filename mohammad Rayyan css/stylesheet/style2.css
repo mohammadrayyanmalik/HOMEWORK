@@ -1,0 +1,26 @@
+.box
+{
+    /* border type color  thickness */
+    border: 1px double blue;
+    height: 70px;
+}
+#box1 
+{
+    background-color: aqua ;
+}
+#box2
+{
+    background-color: brown;
+}
+#box3
+{
+    background-color: blueviolet;
+}
+#box4
+{
+    background-color: cadetblue;
+}
+#box5
+{
+    background-color: chartreuse;
+}

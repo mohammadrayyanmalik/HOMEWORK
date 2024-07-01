@@ -1,0 +1,18 @@
+/* for visited link color change*/
+/*a:visited
+{
+    color: aqua;
+}*/
+/*  for changing link or aanything when put mouse on things */
+a:hover
+{
+    color: blueviolet;
+}
+h1:hover
+{
+    background-color: brown;
+}
+a:hover
+{
+    color: chartreuse;
+}
