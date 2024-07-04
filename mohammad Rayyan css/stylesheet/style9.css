@@ -1,0 +1,40 @@
+.box
+{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    margin: auto;
+}
+.para
+{
+    background-color: aquamarine;
+}
+/* .para span 
+{
+    background-color: brown;
+    display: block;
+    height: 300px;
+}*/
+.para span 
+{
+    background-color: brown;
+    display:inline-block;
+    height: 300px;}
+    h1
+    {
+        background-color: aqua;
+        display: inline-block;
+        height: 100px;
+    }
+    a
+    {
+        text-decoration: none;
+        background-color: cadetblue;
+        display: inline-block;
+        height: 20px;
+        width: 50px;
+        padding: 0px 10px;
+        color: brown;
+        box-sizing: border-box;
+        margin-left:150px;
+    }

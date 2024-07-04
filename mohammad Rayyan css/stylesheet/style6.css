@@ -4,10 +4,13 @@
     font-size: 28px;
     color: darkkhaki;
     width: 400px;
-    font-family: 
+   
+      font-family:
 }
+      
+
 #para1{
-    word-spacing: 3;
+    word-spacing: 3px;
 }
 #para2{
     text-align: right;
@@ -19,6 +22,7 @@
 }
 #para3{
     text-align: justify;
+    
 }
     /* text decoration is used unline, overline, overthrough */
 
@@ -30,4 +34,13 @@
          */
 h1{
     text-decoration: 1px line-through double blue;
+}
+/* font weight has 2 value narmal and bold */
+#para5
+{
+    font-weight: bold;
+}
+#para6
+{
+    font-style: italic;
 }

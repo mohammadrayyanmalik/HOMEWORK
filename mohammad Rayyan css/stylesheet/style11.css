@@ -1,0 +1,33 @@
+/* position have relative, absolute, sticky ( sticky is a combination os relative and absolute ), fixed */
+.box
+{
+    width: 100px;
+    height: 100px;
+    position: fixed ;
+
+}
+#box1
+{
+    background-color: chocolate;
+    /* left: 100px; */
+    left: 10px;
+    top: 10px;
+    z-index: 2;
+
+}
+#box2
+{
+    background-color: darkgrey;
+    /* bottom: 100px; */
+    left: 20px;
+    top: 20px;
+    z-index: 3;
+}
+#box3
+{
+    background-color: darkcyan;
+    /* top: 20px; */
+    left: 30px;
+    top: 30px;
+    z-index: 1;
+}

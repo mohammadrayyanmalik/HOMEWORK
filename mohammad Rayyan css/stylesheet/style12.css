@@ -1,0 +1,29 @@
+/* we can used float or blockinline */
+div{
+    border: 2px solid black;
+    float: left;
+}
+#box1
+{
+    width: 100px;
+}
+#box2
+{
+    width: 200px;
+}
+#box3
+{
+    width: 300px;
+}
+body
+{
+    background-image: url("../img/download.jpeg");
+    /* value is repeat x,y, no cover */
+    background-repeat:no-repeat;
+    /* for image cover whole web page */
+    /*  cover contain percentage */
+    background-size: 50%;
+    /* positon could center right left with px */
+    background-position: center 28px;
+
+}

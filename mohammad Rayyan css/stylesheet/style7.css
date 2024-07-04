@@ -1,0 +1,31 @@
+h1
+/*                horizontal  vertical blrrout color */
+{
+    text-shadow: 10px 5px 10px green;
+    border: 5px dotted brown;
+    padding: 20px 10px;
+}
+/* padding means distance between  box and content */
+ /*  if padding has 1 value means every haave same value
+    if 2value means top and bottom first left and right second
+    if3 means first for top and third for bottom and 2 for left and right
+    if 4 value 1t, 2r,3b,4l */
+.box
+{
+    border: 2px solid blue;
+    padding: 20px;
+
+}
+.box p{
+    border: 2px solid black;
+    padding: 50px 10px 20px 30px;
+}
+h3
+{
+    border: 3px solid green;
+    height: 100px;
+    padding: 20px 80px;
+    box-sizing:;
+
+    
+}

@@ -1,0 +1,60 @@
+.box
+{
+    width:150px;
+    height: 100px;
+    background-color: rgba(125, 193, 193, 0.968);
+    margin: 10px;
+    display: inline-block;
+
+}
+ /* border radius is defines border corner */
+
+ /* border radius always count from top-left  */
+
+ #box1
+ {
+    border-radius: 10px;
+    background-image: url(../img/download.jpeg);
+    background-size: 90%;
+    background-repeat:no-repeat;
+    background-position: center 5px;
+ }
+ body{
+   background-image: url(../img/download.jpeg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+
+ }
+ #box2
+ {
+    border-radius: 0px 20px;
+    background-image: url(../img/download.jpeg);
+    background-size: 50%;
+    background-repeat:no-repeat;
+    background-position:right 5px;
+    box-shadow: 10px 20px 10px 5px rgb(186, 181, 181);
+   }
+   
+ #box3
+ {
+    border-radius: 25px 25px 0px 0px;
+    background-image: url(../img/download.jpeg);
+    background-size: 80%;
+    background-repeat:no-repeat;
+    background-position: left 5px;
+   
+ }
+ #box4
+ {
+    border-radius: 0px 10px 10px;
+    /* horizontaly, vertically, blurred out,spread out and color */
+    box-shadow: 10px 20px 10px 5px rgb(186, 181, 181);
+   
+ }
+ #box5
+ {
+    border-radius: 100px 100px 100px 0px;
+    
+ }
+ 
+   
