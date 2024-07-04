@@ -5,7 +5,6 @@
     height: auto;
     display: flex;
     /* row row-reverse column column-reverse */
-    /* flex-direction: row-reverse; */
     /* flex-direction: column-reverse; */
  
     /* wrap, wrap-reverse, no reverse */
